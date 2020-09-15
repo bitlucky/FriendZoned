@@ -8,14 +8,14 @@ import "./Header.css";
 function Header() {
   return (
     <div className="header">
-      <div className="header_left">
+      <div className="header__left">
         {/* Avatars for logged in user */}
-        <Avatar className="header_avatar" alt="rMr. Reflex" src="" />
+        <Avatar className="header__avatar" alt="rMr. Reflex" src="" />
         {/* Time icon */}
         <AccessTimeIcon />
       </div>
 
-      <div className="header_right">
+      <div className="header__search">
         {/* Search Icon  */}
         <SearchIcon />
         <input placeholder = "Search Friends"/>
